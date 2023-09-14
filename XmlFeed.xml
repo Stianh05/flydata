@@ -1,0 +1,1778 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="OSL">
+  <flights lastUpdate="2023-09-13T13:06:11Z">
+    <flight uniqueID="11883680">
+      <airline>WF</airline>
+      <flight_id>WF153</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-10T14:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <via_airport>SDN</via_airport>
+    </flight>
+    <flight uniqueID="11886062">
+      <airline>WF</airline>
+      <flight_id>WF149</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-11T10:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SDN</airport>
+      <via_airport>SOG</via_airport>
+    </flight>
+    <flight uniqueID="11886260">
+      <airline>RE</airline>
+      <flight_id>RE100</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-12T00:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LGW</airport>
+      <via_airport>LGW</via_airport>
+    </flight>
+    <flight uniqueID="11818531">
+      <airline>SK</airline>
+      <flight_id>SK805</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T11:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LHR</airport>
+      <check_in>1 2 3</check_in>
+      <gate>F15</gate>
+      <status code="D" time="2023-09-13T11:51:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="11817935">
+      <airline>FI</airline>
+      <flight_id>FI319</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T11:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KEF</airport>
+      <check_in>1 2 3</check_in>
+      <gate>D9</gate>
+      <status code="D" time="2023-09-13T11:48:00Z"/>
+    </flight>
+    <flight uniqueID="11818224">
+      <airline>SK</airline>
+      <flight_id>SK496</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T11:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>1 2 3</check_in>
+      <gate>D3</gate>
+      <status code="D" time="2023-09-13T12:00:00Z"/>
+    </flight>
+    <flight uniqueID="11818009">
+      <airline>LX</airline>
+      <flight_id>LX1211</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T12:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ZRH</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E11</gate>
+      <status code="D" time="2023-09-13T12:03:00Z"/>
+    </flight>
+    <flight uniqueID="11630930">
+      <airline>DX</airline>
+      <flight_id>DX574</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T12:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRO</airport>
+      <check_in>5</check_in>
+      <gate>A27</gate>
+      <status code="D" time="2023-09-13T12:00:00Z"/>
+    </flight>
+    <flight uniqueID="11725002">
+      <airline>KL</airline>
+      <flight_id>KL1146</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T12:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E9</gate>
+      <status code="D" time="2023-09-13T12:16:00Z"/>
+    </flight>
+    <flight uniqueID="11818686">
+      <airline>SK</airline>
+      <flight_id>SK4027</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T12:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A19</gate>
+      <status code="D" time="2023-09-13T13:01:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="11818745">
+      <airline>SK</airline>
+      <flight_id>SK215</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T12:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KRS</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A21</gate>
+      <status code="D" time="2023-09-13T12:18:00Z"/>
+    </flight>
+    <flight uniqueID="11817871">
+      <airline>LG</airline>
+      <flight_id>LG5554</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T12:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LUX</airport>
+      <check_in>5</check_in>
+      <gate>E6</gate>
+      <status code="D" time="2023-09-13T12:25:00Z"/>
+    </flight>
+    <flight uniqueID="11818570">
+      <airline>SK</airline>
+      <flight_id>SK1905</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T12:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BLL</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E5</gate>
+      <status code="D" time="2023-09-13T12:39:00Z"/>
+    </flight>
+    <flight uniqueID="11818034">
+      <airline>EK</airline>
+      <flight_id>EK160</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T12:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>DXB</airport>
+      <check_in>1</check_in>
+      <gate>F28</gate>
+      <status code="D" time="2023-09-13T12:29:00Z"/>
+    </flight>
+    <flight uniqueID="11818151">
+      <airline>SK</airline>
+      <flight_id>SK354</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T12:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A12</gate>
+      <status code="D" time="2023-09-13T12:34:00Z"/>
+    </flight>
+    <flight uniqueID="11818021">
+      <airline>PC</airline>
+      <flight_id>PC1274</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T12:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SAW</airport>
+      <check_in>2</check_in>
+      <gate>F31</gate>
+      <status code="D" time="2023-09-13T12:35:00Z"/>
+    </flight>
+    <flight uniqueID="11819437">
+      <airline>DY</airline>
+      <flight_id>DY756</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T12:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+      <gate>C4</gate>
+      <status code="D" time="2023-09-13T12:34:00Z"/>
+    </flight>
+    <flight uniqueID="11818576">
+      <airline>SK</airline>
+      <flight_id>SK2303</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T12:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KSU</airport>
+      <check_in>1 2 3</check_in>
+      <gate>B3</gate>
+      <status code="D" time="2023-09-13T12:41:00Z"/>
+    </flight>
+    <flight uniqueID="11819399">
+      <airline>DY</airline>
+      <flight_id>DY616</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T12:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+      <gate>C2</gate>
+      <status code="D" time="2023-09-13T12:40:00Z"/>
+    </flight>
+    <flight uniqueID="11818443">
+      <airline>SK</airline>
+      <flight_id>SK393</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T12:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BDU</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A20</gate>
+      <status code="D" time="2023-09-13T12:42:00Z"/>
+    </flight>
+    <flight uniqueID="11817901">
+      <airline>TK</airline>
+      <flight_id>TK1746</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T12:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>IST</airport>
+      <check_in>10</check_in>
+      <gate>F16</gate>
+      <status code="D" time="2023-09-13T12:50:00Z"/>
+    </flight>
+    <flight uniqueID="11818953">
+      <airline>WF</airline>
+      <flight_id>WF191</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T12:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FDE</airport>
+      <check_in>5</check_in>
+      <gate>A27</gate>
+      <status code="D" time="2023-09-13T12:45:00Z"/>
+    </flight>
+    <flight uniqueID="11818927">
+      <airline>WF</airline>
+      <flight_id>WF173</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T12:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HOV</airport>
+      <check_in>5</check_in>
+      <gate>A26</gate>
+      <status code="E" time="2023-09-13T13:10:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="11818725">
+      <airline>SK</airline>
+      <flight_id>SK4422</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T12:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A2</gate>
+      <status code="D" time="2023-09-13T12:54:00Z"/>
+    </flight>
+    <flight uniqueID="11818131">
+      <airline>SK</airline>
+      <flight_id>SK269</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T12:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A8</gate>
+      <status code="D" time="2023-09-13T12:58:00Z"/>
+    </flight>
+    <flight uniqueID="11817942">
+      <airline>WF</airline>
+      <flight_id>WF336</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T12:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>GOT</airport>
+      <check_in>5</check_in>
+      <gate>E7</gate>
+      <status code="E" time="2023-09-13T13:15:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="11819578">
+      <airline>DY</airline>
+      <flight_id>DY1826</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T12:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LIS</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E13</gate>
+      <status code="D" time="2023-09-13T12:54:00Z"/>
+    </flight>
+    <flight uniqueID="11819482">
+      <airline>DY</airline>
+      <flight_id>DY816</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T13:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>1 2 3</check_in>
+      <gate>D7</gate>
+      <status code="D" time="2023-09-13T12:57:00Z"/>
+    </flight>
+    <flight uniqueID="11819013">
+      <airline>DY</airline>
+      <flight_id>DY378</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T13:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A6</gate>
+      <status code="D" time="2023-09-13T12:56:00Z"/>
+    </flight>
+    <flight uniqueID="11818695">
+      <airline>SK</airline>
+      <flight_id>SK4031</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T13:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>1 2 3</check_in>
+      <gate>C1</gate>
+      <status code="D" time="2023-09-13T13:01:00Z"/>
+    </flight>
+    <flight uniqueID="11817799">
+      <airline>OS</airline>
+      <flight_id>OS336</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T13:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>VIE</airport>
+      <check_in>1 2 3</check_in>
+      <gate>D10</gate>
+      <status code="E" time="2023-09-13T13:10:00Z"/>
+    </flight>
+    <flight uniqueID="11819560">
+      <airline>DY</airline>
+      <flight_id>DY1804</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T13:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AGP</airport>
+      <check_in>1 2 3</check_in>
+      <gate>D6</gate>
+      <status code="D" time="2023-09-13T13:01:00Z"/>
+    </flight>
+    <flight uniqueID="11818538">
+      <airline>SK</airline>
+      <flight_id>SK809</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T13:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LHR</airport>
+      <check_in>1 2 3</check_in>
+      <gate>F18</gate>
+    </flight>
+    <flight uniqueID="11779410">
+      <airline>HP</airline>
+      <flight_id>HP5908</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T13:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>VBY</airport>
+      <check_in>10</check_in>
+      <gate>E6</gate>
+    </flight>
+    <flight uniqueID="11817700">
+      <airline>EW</airline>
+      <flight_id>EW4235</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T13:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>PRG</airport>
+      <check_in>4</check_in>
+      <gate>E8</gate>
+      <status code="D" time="2023-09-13T13:03:00Z"/>
+    </flight>
+    <flight uniqueID="11818150">
+      <airline>SK</airline>
+      <flight_id>SK1471</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T13:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>1 2 3</check_in>
+      <gate>D5</gate>
+    </flight>
+    <flight uniqueID="11819237">
+      <airline>DY</airline>
+      <flight_id>DY536</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T13:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A10</gate>
+    </flight>
+    <flight uniqueID="11819153">
+      <airline>DY</airline>
+      <flight_id>DY410</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T13:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AES</airport>
+      <check_in>1 2 3</check_in>
+      <gate>C3</gate>
+    </flight>
+    <flight uniqueID="11818508">
+      <airline>SK</airline>
+      <flight_id>SK362</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T13:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A14</gate>
+    </flight>
+    <flight uniqueID="11756737">
+      <airline>AF</airline>
+      <flight_id>AF1775</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T13:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CDG</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E11</gate>
+    </flight>
+    <flight uniqueID="11818835">
+      <airline>DY</airline>
+      <flight_id>DY346</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T13:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <check_in>1 2 3</check_in>
+      <gate>C9</gate>
+    </flight>
+    <flight uniqueID="11819593">
+      <airline>DY</airline>
+      <flight_id>DY9070</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T13:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KGS</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E14</gate>
+    </flight>
+    <flight uniqueID="11818630">
+      <airline>SK</airline>
+      <flight_id>SK4116</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T13:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A15</gate>
+    </flight>
+    <flight uniqueID="11812779">
+      <airline>QR</airline>
+      <flight_id>QR176</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T13:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>DOH</airport>
+      <check_in>10</check_in>
+      <gate>F34</gate>
+    </flight>
+    <flight uniqueID="11818460">
+      <airline>SK</airline>
+      <flight_id>SK271</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T13:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A6</gate>
+      <status code="E" time="2023-09-13T14:00:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="11819429">
+      <airline>DY</airline>
+      <flight_id>DY758</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T13:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+      <gate>C8</gate>
+    </flight>
+    <flight uniqueID="11819381">
+      <airline>DY</airline>
+      <flight_id>DY618</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T13:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A12</gate>
+    </flight>
+    <flight uniqueID="11819561">
+      <airline>DY</airline>
+      <flight_id>DY1792</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T13:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ALC</airport>
+      <check_in>1 2 3</check_in>
+      <gate>D2</gate>
+    </flight>
+    <flight uniqueID="11818590">
+      <airline>SK</airline>
+      <flight_id>SK4035</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T13:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>1 2 3</check_in>
+      <gate>B2</gate>
+    </flight>
+    <flight uniqueID="11817867">
+      <airline>D8</airline>
+      <flight_id>D83229</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T13:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E8</gate>
+    </flight>
+    <flight uniqueID="11818045">
+      <airline>SK</airline>
+      <flight_id>SK4683</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T14:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AGP</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E6</gate>
+    </flight>
+    <flight uniqueID="11818883">
+      <airline>WF</airline>
+      <flight_id>WF153</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T14:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <via_airport>SDN,SOG</via_airport>
+      <check_in>5</check_in>
+      <gate>A27</gate>
+    </flight>
+    <flight uniqueID="11818666">
+      <airline>SK</airline>
+      <flight_id>SK4094</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T14:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>EVE</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A19</gate>
+    </flight>
+    <flight uniqueID="11819587">
+      <airline>DY</airline>
+      <flight_id>DY1884</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T14:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ATH</airport>
+      <check_in>1 2 3</check_in>
+      <gate>D4</gate>
+    </flight>
+    <flight uniqueID="11818104">
+      <airline>SK</airline>
+      <flight_id>SK882</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T14:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E9</gate>
+      <status code="E" time="2023-09-13T14:10:00Z"/>
+    </flight>
+    <flight uniqueID="11819183">
+      <airline>DY</airline>
+      <flight_id>DY430</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T14:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>MOL</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A8</gate>
+    </flight>
+    <flight uniqueID="11818165">
+      <airline>SK</airline>
+      <flight_id>SK459</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T14:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>1 2 3</check_in>
+      <gate>D1</gate>
+    </flight>
+    <flight uniqueID="11818600">
+      <airline>SK</airline>
+      <flight_id>SK4039</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T14:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A20</gate>
+    </flight>
+    <flight uniqueID="11818494">
+      <airline>SK</airline>
+      <flight_id>SK358</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T14:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A21</gate>
+    </flight>
+    <flight uniqueID="11819379">
+      <airline>DY</airline>
+      <flight_id>DY620</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T14:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A14</gate>
+    </flight>
+    <flight uniqueID="11818112">
+      <airline>SK</airline>
+      <flight_id>SK273</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T14:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A2</gate>
+    </flight>
+    <flight uniqueID="11819427">
+      <airline>DY</airline>
+      <flight_id>DY760</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T14:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A12</gate>
+    </flight>
+    <flight uniqueID="11819335">
+      <airline>DY</airline>
+      <flight_id>DY538</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T14:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A10</gate>
+    </flight>
+    <flight uniqueID="11885759">
+      <airline>LH</airline>
+      <flight_id>LH863</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T14:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRA</airport>
+      <check_in>1 2 3</check_in>
+      <gate>D10</gate>
+    </flight>
+    <flight uniqueID="11888521">
+      <airline>SK</airline>
+      <flight_id>SK4745</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T14:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BRU</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E2</gate>
+    </flight>
+    <flight uniqueID="11818733">
+      <airline>SK</airline>
+      <flight_id>SK4424</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T14:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A4</gate>
+    </flight>
+    <flight uniqueID="11817704">
+      <airline>D8</airline>
+      <flight_id>D84116</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T14:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>1 2 3</check_in>
+      <gate>D8</gate>
+    </flight>
+    <flight uniqueID="11818351">
+      <airline>DY</airline>
+      <flight_id>DY190</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T14:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HAU</airport>
+      <check_in>1 2 3</check_in>
+      <gate>C6</gate>
+    </flight>
+    <flight uniqueID="11818587">
+      <airline>SK</airline>
+      <flight_id>SK827</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T14:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E15</gate>
+    </flight>
+    <flight uniqueID="11819474">
+      <airline>DY</airline>
+      <flight_id>DY1060</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T14:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TLL</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E11</gate>
+    </flight>
+    <flight uniqueID="11818957">
+      <airline>WF</airline>
+      <flight_id>WF175</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T14:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <via_airport>HOV</via_airport>
+      <check_in>5</check_in>
+      <gate>A26</gate>
+    </flight>
+    <flight uniqueID="11819601">
+      <airline>DY</airline>
+      <flight_id>DY1872</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T14:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FCO</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E13</gate>
+    </flight>
+    <flight uniqueID="11818128">
+      <airline>SK</airline>
+      <flight_id>SK316</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T14:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HAU</airport>
+      <check_in>1 2 3</check_in>
+      <gate>C3</gate>
+    </flight>
+    <flight uniqueID="11818247">
+      <airline>SK</airline>
+      <flight_id>SK884</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T14:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>1 2 3</check_in>
+      <gate>D1</gate>
+    </flight>
+    <flight uniqueID="11818563">
+      <airline>SK</airline>
+      <flight_id>SK818</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T15:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>DUS</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E14</gate>
+    </flight>
+    <flight uniqueID="11818512">
+      <airline>SK</airline>
+      <flight_id>SK364</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A15</gate>
+    </flight>
+    <flight uniqueID="11819445">
+      <airline>DY</airline>
+      <flight_id>DY762</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+      <gate>C5</gate>
+    </flight>
+    <flight uniqueID="11817722">
+      <airline>BA</airline>
+      <flight_id>BA767</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T15:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LHR</airport>
+      <check_in>4</check_in>
+      <gate>F31</gate>
+      <status code="E" time="2023-09-13T15:10:00Z"/>
+    </flight>
+    <flight uniqueID="11818808">
+      <airline>DY</airline>
+      <flight_id>DY276</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KRS</airport>
+      <check_in>1 2 3</check_in>
+      <gate>C2</gate>
+    </flight>
+    <flight uniqueID="11818518">
+      <airline>SK</airline>
+      <flight_id>SK1326</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AES</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A20</gate>
+    </flight>
+    <flight uniqueID="11818474">
+      <airline>SK</airline>
+      <flight_id>SK277</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A19</gate>
+    </flight>
+    <flight uniqueID="11819385">
+      <airline>DY</airline>
+      <flight_id>DY622</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+      <gate>C7</gate>
+    </flight>
+    <flight uniqueID="11818373">
+      <airline>SK</airline>
+      <flight_id>SK221</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KRS</airport>
+      <check_in>1 2 3</check_in>
+      <gate>A6</gate>
+    </flight>
+    <flight uniqueID="11818234">
+      <airline>SK</airline>
+      <flight_id>SK839</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T15:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CDG</airport>
+      <check_in>1 2 3</check_in>
+      <gate>E9</gate>
+    </flight>
+    <flight uniqueID="11818545">
+      <airline>SK</airline>
+      <flight_id>SK811</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T15:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LHR</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819053">
+      <airline>DY</airline>
+      <flight_id>DY382</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818614">
+      <airline>SK</airline>
+      <flight_id>SK4043</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818229">
+      <airline>AY</airline>
+      <flight_id>AY916</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T15:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HEL</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="11891279">
+      <airline>SK</airline>
+      <flight_id>SK1465</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T15:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11817831">
+      <airline>KL</airline>
+      <flight_id>KL1148</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T15:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819341">
+      <airline>DY</airline>
+      <flight_id>DY540</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819492">
+      <airline>DY</airline>
+      <flight_id>DY948</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T15:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818899">
+      <airline>WF</airline>
+      <flight_id>WF155</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <via_airport>SOG</via_airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="11818670">
+      <airline>SK</airline>
+      <flight_id>SK4122</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819596">
+      <airline>DY</airline>
+      <flight_id>DY1876</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T15:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>MXP</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819449">
+      <airline>DY</airline>
+      <flight_id>DY764</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819389">
+      <airline>DY</airline>
+      <flight_id>DY624</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818542">
+      <airline>SK</airline>
+      <flight_id>SK1921</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T15:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AAL</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818144">
+      <airline>SK</airline>
+      <flight_id>SK348</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818933">
+      <airline>WF</airline>
+      <flight_id>WF195</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FDE</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="11818767">
+      <airline>DY</airline>
+      <flight_id>DY350</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818241">
+      <airline>WF</airline>
+      <flight_id>WF038</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>RRS</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="11818060">
+      <airline>SK</airline>
+      <flight_id>SK488</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T15:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818919">
+      <airline>DY</airline>
+      <flight_id>DY366</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>EVE</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819097">
+      <airline>DY</airline>
+      <flight_id>DY414</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T15:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AES</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818552">
+      <airline>SK</airline>
+      <flight_id>SK1903</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T15:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BLL</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11817920">
+      <airline>SK</airline>
+      <flight_id>SK4045</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T16:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818482">
+      <airline>SK</airline>
+      <flight_id>SK281</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T16:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819476">
+      <airline>DY</airline>
+      <flight_id>DY822</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T16:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11874782">
+      <airline>SN</airline>
+      <flight_id>SN2284</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T16:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BRU</airport>
+      <check_in>1</check_in>
+    </flight>
+    <flight uniqueID="11819333">
+      <airline>DY</airline>
+      <flight_id>DY544</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T16:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11891260">
+      <airline>SK</airline>
+      <flight_id>SK2305</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T16:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KSU</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818194">
+      <airline>SK</airline>
+      <flight_id>SK461</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T16:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819580">
+      <airline>DY</airline>
+      <flight_id>DY1108</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T16:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BER</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11817849">
+      <airline>SK</airline>
+      <flight_id>SK1484</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T16:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11891254">
+      <airline>SK</airline>
+      <flight_id>SK366</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T16:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818047">
+      <airline>D8</airline>
+      <flight_id>D83231</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T16:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818761">
+      <airline>SK</airline>
+      <flight_id>SK4434</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T16:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ALF</airport>
+      <via_airport>TOS</via_airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818486">
+      <airline>SK</airline>
+      <flight_id>SK283</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T16:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819472">
+      <airline>DY</airline>
+      <flight_id>DY1042</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T16:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KRK</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818051">
+      <airline>TK</airline>
+      <flight_id>TK1754</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T16:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>IST</airport>
+      <check_in>10</check_in>
+    </flight>
+    <flight uniqueID="11886118">
+      <airline>LH</airline>
+      <flight_id>LH867</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T16:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRA</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819548">
+      <airline>DY</airline>
+      <flight_id>DY1310</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T16:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LGW</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819600">
+      <airline>DY</airline>
+      <flight_id>DY1854</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T16:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>VRN</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818137">
+      <airline>SK</airline>
+      <flight_id>SK1477</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T16:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11817761">
+      <airline>LH</airline>
+      <flight_id>LH2455</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T16:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>MUC</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819395">
+      <airline>DY</airline>
+      <flight_id>DY632</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T17:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819365">
+      <airline>DY</airline>
+      <flight_id>DY546</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T17:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819439">
+      <airline>DY</airline>
+      <flight_id>DY768</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T17:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11817729">
+      <airline>RK</airline>
+      <flight_id>RK1395</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T17:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>STN</airport>
+      <check_in>4</check_in>
+    </flight>
+    <flight uniqueID="11819538">
+      <airline>DY</airline>
+      <flight_id>DY1258</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T17:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819545">
+      <airline>DY</airline>
+      <flight_id>DY1570</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T17:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOJ</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818626">
+      <airline>SK</airline>
+      <flight_id>SK4049</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T17:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11817810">
+      <airline>KL</airline>
+      <flight_id>KL1150</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T17:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819550">
+      <airline>DY</airline>
+      <flight_id>DY1348</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T17:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>MAN</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818184">
+      <airline>D8</airline>
+      <flight_id>D84122</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T17:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11891250">
+      <airline>SK</airline>
+      <flight_id>SK370</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T17:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818299">
+      <airline>D8</airline>
+      <flight_id>D85523</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T17:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BCN</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818639">
+      <airline>SK</airline>
+      <flight_id>SK4124</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T17:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818943">
+      <airline>WF</airline>
+      <flight_id>WF177</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T17:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HOV</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="11818116">
+      <airline>SK</airline>
+      <flight_id>SK886</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T17:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818378">
+      <airline>SK</airline>
+      <flight_id>SK223</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T17:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KRS</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818803">
+      <airline>DY</airline>
+      <flight_id>DY278</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T17:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KRS</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11817956">
+      <airline>ET</airline>
+      <flight_id>ET715</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T17:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ADD</airport>
+      <via_airport>ARN</via_airport>
+      <check_in>10</check_in>
+    </flight>
+    <flight uniqueID="11818747">
+      <airline>DY</airline>
+      <flight_id>DY328</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T17:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ALF</airport>
+      <via_airport>TOS</via_airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819526">
+      <airline>DY</airline>
+      <flight_id>DY1054</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T17:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>GDN</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11817698">
+      <airline>LO</airline>
+      <flight_id>LO484</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T17:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>WAW</airport>
+      <check_in>4</check_in>
+    </flight>
+    <flight uniqueID="11818432">
+      <airline>SK</airline>
+      <flight_id>SK320</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T17:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HAU</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819483">
+      <airline>DY</airline>
+      <flight_id>DY996</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T17:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BLL</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819522">
+      <airline>DY</airline>
+      <flight_id>DY1086</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T17:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>PLQ</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11817872">
+      <airline>SK</airline>
+      <flight_id>SK1927</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T17:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AAR</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818188">
+      <airline>SK</airline>
+      <flight_id>SK463</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T17:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819101">
+      <airline>DY</airline>
+      <flight_id>DY436</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T17:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>MOL</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818192">
+      <airline>SK</airline>
+      <flight_id>SK4528</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T17:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>MOL</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818855">
+      <airline>BT</airline>
+      <flight_id>BT154</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T18:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>RIX</airport>
+      <check_in>4</check_in>
+    </flight>
+    <flight uniqueID="11818526">
+      <airline>SK</airline>
+      <flight_id>SK1330</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T18:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AES</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818753">
+      <airline>SK</airline>
+      <flight_id>SK4432</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T18:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11817850">
+      <airline>WF</airline>
+      <flight_id>WF078</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T18:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="11630934">
+      <airline>DX</airline>
+      <flight_id>DX576</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T18:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRO</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="11818553">
+      <airline>SK</airline>
+      <flight_id>SK815</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2023-09-13T18:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LHR</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819459">
+      <airline>DY</airline>
+      <flight_id>DY770</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T18:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819457">
+      <airline>DY</airline>
+      <flight_id>DY636</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T18:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11817905">
+      <airline>SK</airline>
+      <flight_id>SK4098</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T18:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>EVE</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818833">
+      <airline>DY</airline>
+      <flight_id>DY356</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T18:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818877">
+      <airline>WF</airline>
+      <flight_id>WF157</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T18:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SDN</airport>
+      <via_airport>SOG</via_airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="11818506">
+      <airline>SK</airline>
+      <flight_id>SK291</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T18:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819119">
+      <airline>DY</airline>
+      <flight_id>DY418</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T18:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AES</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11888968">
+      <airline>SK</airline>
+      <flight_id>SK1475</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T18:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818453">
+      <airline>SK</airline>
+      <flight_id>SK397</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T18:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BDU</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818393">
+      <airline>DY</airline>
+      <flight_id>DY196</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T19:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HAU</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818262">
+      <airline>AY</airline>
+      <flight_id>AY918</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T19:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HEL</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="11818841">
+      <airline>DY</airline>
+      <flight_id>DY368</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T19:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>EVE</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11772907">
+      <airline>VY</airline>
+      <flight_id>VY8539</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T19:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BCN</airport>
+      <check_in>4</check_in>
+    </flight>
+    <flight uniqueID="11888523">
+      <airline>SK</airline>
+      <flight_id>SK1488</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T19:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11817719">
+      <airline>FR</airline>
+      <flight_id>FR7101</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2023-09-13T19:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KTW</airport>
+      <check_in>4</check_in>
+    </flight>
+    <flight uniqueID="11818983">
+      <airline>DY</airline>
+      <flight_id>DY386</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T19:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818457">
+      <airline>SK</airline>
+      <flight_id>SK382</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T19:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818102">
+      <airline>SK</airline>
+      <flight_id>SK295</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T19:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819345">
+      <airline>DY</airline>
+      <flight_id>DY550</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T19:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11817988">
+      <airline>SK</airline>
+      <flight_id>SK4126</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T19:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11818637">
+      <airline>SK</airline>
+      <flight_id>SK4051</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T19:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819393">
+      <airline>DY</airline>
+      <flight_id>DY638</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T20:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+    <flight uniqueID="11819495">
+      <airline>DY</airline>
+      <flight_id>DY776</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2023-09-13T20:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>1 2 3</check_in>
+    </flight>
+  </flights>
+</airport>
