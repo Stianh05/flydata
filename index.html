@@ -21,7 +21,6 @@
 </head>
 <body>
     <h1>Flight Data</h1>
-        <p>.......</p>
     <table>
         <thead>
             <tr>
@@ -42,7 +41,7 @@
 
     <script>
         // Load the JSON data
-        fetch('XmlFeed.xml')
+        fetch('flights.json')
             .then(response => response.json())
             .then(data => {        
                 const flightData = data.flights;
