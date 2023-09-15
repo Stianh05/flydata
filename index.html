@@ -27,7 +27,7 @@
         .then(function(response) {
             // Check if the response status is OK (HTTP status code 200)
             if (response.ok) {
-                console.log("ok")
+                console.log({flight})
             // If the response is successful, get the XML text
             return response.text();
             } else {
