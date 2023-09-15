@@ -27,9 +27,11 @@
         .then(function(response) {
             // Check if the response status is OK (HTTP status code 200)
             if (response.ok) {
+                console.log("ok")
             // If the response is successful, get the XML text
             return response.text();
             } else {
+                console.log("no")
             // If there's an error, throw an error with a message
             throw new Error('Failed to fetch data');
             }
