@@ -2,29 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flight Data</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
-    <h1>Fly informasjon</h1>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -44,39 +21,6 @@
             xhttp.open("GET","https://flydata.avinor.no/XmlFeed.asp?TimeFrom=1&TimeTo=7&airport=BGO&direction=D&lastUpdate=2009-03-10T15:03:00Z",true);
             xhttp.send();
         }
-    </script>
-</body>
-</html>
-    <script>
-        fetch('XmlFeed.xml')
-        .then(function(response) {
-            // Check if the response status is OK (HTTP status code 200)
-            if (response.ok) {
-                console.log({flight})
-            // If the response is successful, get the XML text
-            return response.text();
-            } else {
-                console.log("no")
-            // If there's an error, throw an error with a message
-            throw new Error('Failed to fetch data');
-            }
-        })
-        .then(function(xmlText) {
-            // Once the XML text is retrieved, you can work with it
-            console.log(xmlText);
-            
-            // You can parse the XML using a library like DOMParser
-            var parser = new DOMParser();
-            var xmlDoc = parser.parseFromString(xmlText, 'application/xml');
-            
-            // Now you can access and manipulate the XML data as needed
-            console.log(xmlDoc);
-        })
-        .catch(function(error) {
-            // Handle any errors that occurred during the fetch operation
-            console.error(error);
-        });
-
     </script>
 </body>
 </html>
