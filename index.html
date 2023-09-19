@@ -2,25 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flight Data</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
-
 <body>
-    <button onclick="loadXml()">Change Content</button>    
+    <h1>Fly informasjon</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Flyselskap</th>
+                <th>Flyvning ID</th>
+                <th>Nasjonal/Internasjonal</th>
+                <th>Tidspunkt for Planlagt Avgang/Ankomst</th>
+                <th>Ankomst/Avgang</th>
+                <th>Flyplass</th>
+                <th>Innsjekking</th>
+            </tr>
+        </thead>
+        <tbody id="flightData">
+            <!-- Flight data will be inserted here dynamically -->
+        </tbody>
+    </table>
 
     <script>
-        let xhttp=new XMLHttpRequest();
-        function loadXml()
-        {
-            xhttp.onreadystatechange=function()
-            {
+        // Load the JSON data
+        fetch('flights.json')
+            .then(response => response.json())
+            .then(data => {        
+                const flightData = data.flights;
+                const tableBody = document.getElementById('flightData');
 
-            }
-            xhttp.open("GET","https://flydata.avinor.no/XmlFeed.asp?TimeFrom=1&TimeTo=7&airport=BGO&direction=D&lastUpdate=2009-03-10T15:03:00Z",true);
-            xhttp.send();
-        }
+                // Populate the table with the JSON data
+                flightData.forEach(flight => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${flight.airline}</td>
+                        <td>${flight.flight_id}</td>
+                        <td>${flight.dom_int}</td>
+                        <td>${flight.schedule_time}</td>
+                        <td>${flight.arr_dep}</td>
+                        <td>${flight.airport}</td>
+                        <td>${flight.check_in}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Error loading JSON data:', error));
     </script>
 </body>
 </html>
