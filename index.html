@@ -26,7 +26,10 @@
             <tr>
                 <th>Flyselskap</th>
                 <th>Nasjonal/Internasjonal</th>
-                <th>Tidspunkt for Planlagt Avgang/Ankomst</th>
+                <th>Year</th>
+                <th>Month</th>
+                <th>Day</th>
+                <th>Time</th>
                 <th>Flyplass</th>
                 <th>Innsjekking</th>
             </tr>
@@ -47,10 +50,15 @@
                 // Populate the table with the JSON data
                 flightData.forEach(flight => {
                     const row = document.createElement('tr');
+                    const scheduleTime = new Date(flight.schedule_time);
+
                     row.innerHTML = `
                         <td>${flight.airline}</td>
                         <td>${flight.dom_int}</td>
-                        <td>${flight.schedule_time}</td>
+                        <td>${scheduleTime.getFullYear()}</td>
+                        <td>${scheduleTime.getMonth() + 1}</td>
+                        <td>${scheduleTime.getDate()}</td>
+                        <td>${scheduleTime.toLocaleTimeString()}</td>
                         <td>${flight.airport}</td>
                         <td>${flight.check_in}</td>
                     `;
