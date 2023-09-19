@@ -31,7 +31,6 @@
                 <th>Day</th>
                 <th>Time</th>
                 <th>Flyplass</th>
-                <th>Innsjekking</th>
             </tr>
         </thead>
         <tbody id="flightData">
@@ -60,7 +59,6 @@
                         <td>${scheduleTime.getDate()}</td>
                         <td>${scheduleTime.toLocaleTimeString()}</td>
                         <td>${flight.airport}</td>
-                        <td>${flight.check_in}</td>
                     `;
                     tableBody.appendChild(row);
                 });
