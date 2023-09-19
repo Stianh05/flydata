@@ -25,7 +25,6 @@
         <thead>
             <tr>
                 <th>Flyselskap</th>
-                <th>Flyvning ID</th>
                 <th>Nasjonal/Internasjonal</th>
                 <th>Tidspunkt for Planlagt Avgang/Ankomst</th>
                 <th>Ankomst/Avgang</th>
@@ -51,7 +50,6 @@
                     const row = document.createElement('tr');
                     row.innerHTML = `
                         <td>${flight.airline}</td>
-                        <td>${flight.flight_id}</td>
                         <td>${flight.dom_int}</td>
                         <td>${flight.schedule_time}</td>
                         <td>${flight.arr_dep}</td>
