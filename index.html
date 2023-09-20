@@ -25,7 +25,6 @@
         <thead>
             <tr>
                 <th>Flyselskap</th>
-                <th>Nasjonal/Internasjonal</th>
                 <th>Year</th>
                 <th>Month</th>
                 <th>Day</th>
@@ -53,7 +52,6 @@
 
                     row.innerHTML = `
                         <td>${flight.airline}</td>
-                        <td>${flight.dom_int}</td>
                         <td>${scheduleTime.getFullYear()}</td>
                         <td>${scheduleTime.getMonth() + 1}</td>
                         <td>${scheduleTime.getDate()}</td>
