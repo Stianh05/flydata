@@ -42,10 +42,15 @@
         fetch('flights.json')
             .then(response => response.json())
             .then(data => {        
-                const flightData = data.flights;
+                const flightData = data.flights.filter(flight => {
+                    const scheduleTime = new Date(flight.schedule_time);
+                    const currentTime = new Date();
+                    return scheduleTime > currentTime; // Only keep future flights
+                });
+
                 const tableBody = document.getElementById('flightData');
 
-                // Populate the table with the JSON data
+                // Populate the table with the filtered JSON data
                 flightData.forEach(flight => {
                     const row = document.createElement('tr');
                     const scheduleTime = new Date(flight.schedule_time);
