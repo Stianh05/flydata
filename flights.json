@@ -602,7 +602,7 @@
     },
     {
       "uniqueID": "11907971",
-      "airline": "",
+      "airline": "Atlantic Airways",
       "flight_id": "RC435",
       "dom_int": "S",
       "schedule_time": "2023-09-20T09:20:00Z",
@@ -652,7 +652,7 @@
     },
     {
       "uniqueID": "11834456",
-      "airline": "",
+      "airline": "Loganair",
       "flight_id": "LM004",
       "dom_int": "I",
       "schedule_time": "2023-09-20T09:30:00Z",
@@ -662,7 +662,7 @@
     },
     {
       "uniqueID": "11834624",
-      "airline": "",
+      "airline": "Aegean Airlines",
       "flight_id": "A3757",
       "dom_int": "S",
       "schedule_time": "2023-09-20T09:30:00Z",
@@ -802,7 +802,7 @@
     },
     {
       "uniqueID": "11834519",
-      "airline": "",
+      "airline": "Luxair",
       "flight_id": "LG5554",
       "dom_int": "S",
       "schedule_time": "2023-09-20T10:10:00Z",
@@ -952,7 +952,7 @@
     },
     {
       "uniqueID": "11834691",
-      "airline": "",
+      "airline": "Iberia Airlines",
       "flight_id": "IB3497",
       "dom_int": "S",
       "schedule_time": "2023-09-20T11:15:00Z",
@@ -1332,7 +1332,7 @@
     },
     {
       "uniqueID": "11834363",
-      "airline": "",
+      "airline": "Eurowings",
       "flight_id": "EW4235",
       "dom_int": "S",
       "schedule_time": "2023-09-20T13:10:00Z",
