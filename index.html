@@ -27,7 +27,7 @@
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
-            text-align: left;
+            text-align: center; /* Center-align cell content */
         }
 
         th {
@@ -41,6 +41,11 @@
 
         tbody tr:nth-child(odd) {
             background-color: #fff;
+        }
+
+        /* Set a fixed width for Flyselskap and Flyplass columns */
+        th:nth-child(1), td:nth-child(1), th:nth-child(3), td:nth-child(3) {
+            width: 30%; /* Adjust the width as needed */
         }
 
         script {
