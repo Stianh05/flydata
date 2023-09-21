@@ -1,26 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flight Data</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <!-- ... Your existing head content ... -->
 </head>
 <body>
-    <h1>Fly informasjon</h1>
+    <h1>Flight information</h1>
     <table>
         <thead>
             <tr>
@@ -35,32 +19,52 @@
     </table>
 
     <script>
-        // Load the JSON data
-        fetch('flights.json')
-            .then(response => response.json())
-            .then(data => {        
-                const flightData = data.flights.filter(flight => {
-                    const scheduleTime = new Date(flight.schedule_time);
-                    const currentTime = new Date();
-                    return scheduleTime > currentTime; // Only keep future flights
-                });
+        // Function to update flight data
+        function updateFlightData() {
+            fetch('flights.json')
+                .then(response => response.json())
+                .then(data => {        
+                    const flightData = data.flights.filter(flight => {
+                        const scheduleTime = new Date(flight.schedule_time);
+                        const currentTime = new Date();
+                        return scheduleTime > currentTime; // Only keep future flights
+                    });
 
-                const tableBody = document.getElementById('flightData');
+                    const tableBody = document.getElementById('flightData');
 
-                // Populate the table with the filtered JSON data
-                flightData.forEach(flight => {
-                    const row = document.createElement('tr');
-                    const scheduleTime = new Date(flight.schedule_time);
+                    // Check if flights have left (been removed)
+                    const existingRows = tableBody.getElementsByTagName('tr');
+                    for (let i = existingRows.length - 1; i >= 0; i--) {
+                        const row = existingRows[i];
+                        const flightTime = new Date(row.cells[1].textContent);
+                        if (flightTime < new Date()) {
+                            tableBody.removeChild(row);
+                        }
+                    }
 
-                    row.innerHTML = `
-                        <td>${flight.airline}</td>
-                        <td>${scheduleTime.toLocaleTimeString()}</td>
-                        <td>${flight.airport}</td>
-                    `;
-                    tableBody.appendChild(row);
-                });
-            })
-            .catch(error => console.error('Error loading JSON data:', error));
+                    // Add new flights
+                    flightData.forEach(flight => {
+                        const scheduleTime = new Date(flight.schedule_time);
+                        if (scheduleTime > new Date()) {
+                            const row = document.createElement('tr');
+                            row.innerHTML = `
+                                <td>${flight.airline}</td>
+                                <td>${scheduleTime.toLocaleTimeString()}</td>
+                                <td>${flight.airport}</td>
+                            `;
+                            tableBody.appendChild(row);
+                        }
+                    });
+                })
+                .catch(error => console.error('Error loading JSON data:', error));
+        }
+
+        // Initial call to load flight data
+        updateFlightData();
+
+        // Periodically check for updates (every 5 minutes in this example)
+        const updateInterval = 5 * 60 * 1000; // 5 minutes
+        setInterval(updateFlightData, updateInterval);
     </script>
 </body>
 </html>
