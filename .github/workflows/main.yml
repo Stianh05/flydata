@@ -2,7 +2,7 @@ name: Run Python Script
 
 on:
   schedule:
-    - cron: "0 12,18 * * *"
+    - cron: "0 13,18 * * *"
 
 jobs:
   build:
@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Check out code
-        uses: actions/checkout@v16
+        uses: actions/checkout@v2
 
       - name: Set up Node.js
         uses: actions/setup-node@v16
