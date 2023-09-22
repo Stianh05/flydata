@@ -22,8 +22,5 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt  # Correctly install dependencies from requirements.txt
-
       - name: Run Python script
         run: python app.py
