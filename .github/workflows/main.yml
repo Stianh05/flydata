@@ -21,11 +21,9 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.x
-          
-      
-      - name: Install dependencies
-        run: pip install -r path/to/requirements.txt
 
+      - name: Install dependencies
+        run: pip install -r requirements.txt  # Correctly install dependencies from requirements.txt
 
       - name: Run Python script
         run: python app.py
