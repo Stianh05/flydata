@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Data</title>
+    <style>
+        body {
+            background-color: #84216B;
+            color: #000000;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center; /* Center-align cell content */
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #000;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #ddd;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        /* Set a fixed width for Flyselskap and Flyplass columns */
+        th:nth-child(1), td:nth-child(1), th:nth-child(3), td:nth-child(3) {
+            width: 30%; /* Adjust the width as needed */
+        }
+
+        script {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Departing flights</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Airline</th>
+                <th>Time</th>
+                <th>Airport</th>
+            </tr>
+        </thead>
+        <tbody id="flightData">
+            <!-- Flight data will be inserted here dynamically -->
+        </tbody>
+    </table>
+
+    <script>
+        function reloadPage() {
+            location.reload();
+        }
+
+        function scheduleReload(departureTime) {
+            const currentTime = new Date();
+            const timeUntilDeparture = departureTime - currentTime;
+
+            if (timeUntilDeparture > 0) {
+                setTimeout(reloadPage, timeUntilDeparture);
+            }
+        }
+
+        // Load the JSON data
+        fetch('flights.json')
+            .then(response => response.json())
+            .then(data => {        
+                const flightData = data.flights.filter(flight => {
+                    const scheduleTime = new Date(flight.schedule_time);
+                    const currentTime = new Date();
+                    return scheduleTime > currentTime; // Only keep future flights
+                });
+
+                const tableBody = document.getElementById('flightData');
+
+                // Populate the table with the filtered JSON data and schedule reloads
+                flightData.forEach(flight => {
+                    const row = document.createElement('tr');
+                    const scheduleTime = new Date(flight.schedule_time);
+
+                    row.innerHTML = `
+                        <td>${flight.airline}</td>
+                        <td>${scheduleTime.toLocaleTimeString()}</td>
+                        <td>${flight.airport}</td>
+                    `;
+                    tableBody.appendChild(row);
+
+                    // Schedule a reload when the plane leaves
+                    scheduleReload(scheduleTime);
+                });
+            })
+            .catch(error => console.error('Error loading JSON data:', error));
+    </script>
+</body>
+</html>
