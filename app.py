@@ -3,8 +3,6 @@ import xml.etree.ElementTree as ET
 import json
 import os
 from datetime import datetime
-try:
-
 
 # Mapping of airline abbreviations to full names
 airline_mapping = {
@@ -157,6 +155,10 @@ url = "https://flydata.avinor.no/XmlFeed.asp?TimeFrom=1&TimeTo=7&airport=BGO&dir
 xml_filename = "data.xml"
 json_filename = "flights.json"
 
+
+print("Debug: Starting script...")
+
+
 try:
     # Download XML data
     response = requests.get(url)
@@ -224,5 +226,5 @@ try:
 except requests.exceptions.RequestException as e:
     print(f"An error occurred: {e}")
 
-except Exception as e:
-    print("Error:", e)
+print("Debug: Value of variable x:", x)
+
