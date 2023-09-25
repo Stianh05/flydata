@@ -226,5 +226,7 @@ try:
 except requests.exceptions.RequestException as e:
     print(f"An error occurred: {e}")
 
-print("Debug: Value of variable x:", x)
 
+
+
+print("Debug: Value of variable x:")
