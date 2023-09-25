@@ -3,6 +3,8 @@ import xml.etree.ElementTree as ET
 import json
 import os
 from datetime import datetime
+try:
+
 
 # Mapping of airline abbreviations to full names
 airline_mapping = {
@@ -221,3 +223,6 @@ try:
         print(f"Failed to download content. Status code: {response.status_code}")
 except requests.exceptions.RequestException as e:
     print(f"An error occurred: {e}")
+
+except Exception as e:
+    print("Error:", e)
