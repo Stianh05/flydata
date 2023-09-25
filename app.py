@@ -147,7 +147,8 @@ airports_mapping = {
     "TRF": "Sandefjord Airport",
     "ABZ": "Aberdeen International Airport",
     "LPL": "Liverpool John Lennon Airport",
-    "LBC": "Long Beach Airport"
+    "LBC": "Long Beach Airport",
+    "KUN": "Kaunas International Airport"
 }
 
 url = "https://flydata.avinor.no/XmlFeed.asp?TimeFrom=1&TimeTo=7&airport=BGO&direction=D&lastUpdate=2009-03-10T15:03:00Z"
