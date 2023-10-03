@@ -59,6 +59,7 @@
         <thead>
             <tr>
                 <th>Airline</th>
+                <th>Air ID</th>
                 <th>Time</th>
                 <th>Airport</th>
             </tr>
@@ -101,6 +102,7 @@
 
                     row.innerHTML = `
                         <td>${flight.airline}</td>
+                        <td>${flight.flight_id}</td>
                         <td>${scheduleTime.toLocaleTimeString()}</td>
                         <td>${flight.airport}</td>
                     `;
